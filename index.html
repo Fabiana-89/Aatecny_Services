@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__contact">
+      <p>Telefone: +244 927 585 446</p>
+      <p>Email: aatecnyservicos@gmail.com</p>
+    </div>
+
+    <div class="navbar">
+      <div class="header__menu-mobile">
+        <span class="title">Aatecny</span>
+        
+        <nav class="menu">
+          <ul class="list">
+            <li class="nav__item">
+              <a href="#" class="list__link">home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="list__link">sobre</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="list__link">serviços</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="list__link">contacto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="btn btn__menu-mobile" data-btn="menu-mobile">
+          <i class="list__icon bi bi-list" data-icon="icon"></i>
+        </button>
+      </div>
+
+      <nav class="menu-mobile menu-mobile--hidden">
+        <ul class="list">
+          <li class="nav__item">
+            <a href="#" class="list__link">home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="list__link">sobre</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="list__link">serviços</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="list__link">contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- conteúdo do cabeçalho -->
+    <main class="content-block">
+      <div class="content-wrapper">
+        <h1 class="title header__title title--large">Excelência em Eletro Mecânica: Qualidade Garantida</h1>
+        <div class="line"></div>
+        <p class="content__text">Na nossa empresa, buscamos oferecer excelência em serviços de eletro mecânica, garantindo qualidade em cada etapa do processo.</p>
+        <a class="btn" href="#contact">Contactar</a>
+      </div>
+
+      <img src="assets/img/slider-img.png" alt="" class="header-img">
+    </main>
+  </header>
+
+  <!-- conteudo principal -->
+  <main class="main">
+    <ul class="list list--center list--m-top-negative list--bg-transparent">
+      <li class="list__item list__item-wrapper">
+        <i class="list__icon bi bi-tools"></i>
+        <h3 class="list__title title title--small title--width">reparação</h3>
+      </li>
+      <li class="list__item list__item-wrapper">
+        <i class="list__icon bi bi-gear"></i>
+        <h3 class="list__title title title--small title--width">melhoria</h3>
+      </li>
+      <li class="list__item list__item-wrapper">
+        <i class="list__icon bi bi-house-gear"></i>
+        <h3 class="list__title title title--small title--width">manutenção</h3>
+      </li>
+    </ul>
+
+    <!-- Sobre nos -->
+    <div class="content-block content-block--my" id="about">
+      <div class="content-wrapper">
+        <h2 class="title title--medium">Sobre nós</h2>
+        <div class="line"></div>
+        <p class="content__text">
+          Em nossa empresa, comprometemo-nos com a excelência em serviços de eletro mecânica, onde a qualidade é nossa garantia primordial. Desde reparos precisos até melhorias inovadoras, e da manutenção regular ao suporte contínuo, nosso compromisso com a excelência assegura resultados superiores para nossos clientes.
+        </p>
+      </div>
+  
+      <img src="assets/img/about-img.jpg" alt="" class="img--height">
+    </div>
+
+    <!-- nossos servicos -->
+    <div class="content-block content-block--my" id="services">
+      <img src="assets/img/professional-img.png" alt="" class="img--height-plus">
+      
+      <div class="content-wrapper">
+        <h2 class="title title--medium provide-professional">nós fornecemos serviços profissionais</h2>
+        <div class="line"></div>
+        <p class="content__text">
+          Com um foco incansável na satisfação do cliente, nós fornecemos serviços profissionais de excelência em eletro mecânica. Nossa equipe altamente qualificada e experiente está comprometida em superar as expectativas, oferecendo soluções sob medida para atender às necessidades específicas de cada cliente. Desde diagnósticos precisos até implementações eficazes, cada etapa do nosso serviço é conduzida com profissionalismo e atenção aos detalhes. Conte conosco para fornecer serviços profissionais que impulsionam o sucesso e garantem resultados duradouros.
+        </p>
+      </div>
+    </div>
+
+    <div class="content-block content-block--my">
+      <div class="content-wrapper our-service">
+        <h2 class="title our-service__title">nossos serviços</h2>
+        <ul class="list our-service__list">
+          <li class="list__item list__item-wrapper our-service__item">
+            <i class="list__icon bi bi-tools"></i>
+            <h3 class="list__title list__title--m-top-bottom title title--small title--width">Electro mecânica em máquinas de indústria</h3>
+            <p class="our-service__text">
+              Oferecemos serviços especializados em eletro mecânica para máquinas industriais, visando otimizar o desempenho e a confiabilidade de suas operações.
+            </p>
+          </li>
+          <li class="list__item list__item-wrapper our-service__item">
+            <i class="list__icon bi bi-gear"></i>
+            <h3 class="list__title list__title--m-top-bottom title title--small title--width">Electricidade industrial e doméstica</h3>
+            <p class="our-service__text">
+              Oferecemos serviços abrangentes de eletricidade tanto para ambientes industriais quanto domésticos, garantindo segurança, eficiência e confiabilidade em cada projeto.
+            </p>
+          </li>
+          <li class="list__item list__item-wrapper our-service__item">
+            <i class="list__icon bi bi-house-gear"></i>
+            <h3 class="list__title list__title--m-top-bottom title title--small title--width">
+              Venda e reparação de equipamentos de carpintaria e serração de madeiras
+            </h3>
+            <p class="our-service__text">
+              Nossa empresa oferece um serviço abrangente de venda e reparação de equipamentos de carpintaria e serração de madeiras, proporcionando soluções completas para as necessidades de nossos clientes.
+            </p>
+          </li>
+          <li class="list__item list__item-wrapper our-service__item">
+            <i class="list__icon bi bi-tools"></i>
+            <h3 class="list__title list__title--m-top-bottom title title--small title--width">Instalações especiais</h3>
+            <p class="our-service__text">
+              Oferecemos um serviço especializado em instalações especiais, projetadas para atender às demandas únicas e complexas de nossos clientes.
+            </p>
+          </li>
+          <li class="list__item list__item-wrapper our-service__item">
+            <i class="list__icon bi bi-gear"></i>
+            <h3 class="list__title list__title--m-top-bottom title title--small title--width">Geradores</h3>
+            <p class="our-service__text">
+              Oferecemos um serviço especializado em geradores que garante energia confiável e ininterrupta para suas necessidades.
+            </p>
+          </li>
+          <li class="list__item list__item-wrapper our-service__item">
+            <i class="list__icon bi bi-house-gear"></i>
+            <h3 class="list__title list__title--m-top-bottom title title--small title--width">Frio industrial</h3>
+            <p class="our-service__text">
+              Oferecemos um serviço completo de frio industrial, proporcionando soluções confiáveis e eficientes para suas necessidades de refrigeração. 
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="content-block content-block--my" id="contact">
+      <div>
+        <h2 class="title contact__title">contacte-nos</h2>
+        <form action="" class="form">
+          <div class="form__item">
+            <label for="">Nome:</label>
+            <input type="text" placeholder="Digite seu nome" class="form__input">
+          </div>
+          <div class="form__item">
+            <label for="">N. de telefone:</label>
+            <input type="text" placeholder="Digite seu numero de telefone" class="form__input">
+          </div>
+          <div class="form__item">
+            <label for="">Email:</label>
+            <input type="text" placeholder="Digite seu email" class="form__input">
+          </div>
+          <div class="form__item">
+            <label for="">Mensagem:</label>
+            <input type="text" placeholder="Digite sua mensagem" class="form__input">
+          </div>
+          <button type="submit" class="btn form__btn">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="content-block footer">
+    <div class="footer__contact-wrapper">
+      <h2 class="title footer__title">Entrar em contato</h2>
+      <div class="footer__contact">
+        <div>
+          <div class="footer__icon-wrapper">
+            <i class="bi bi-telephone-fill footer__icon"></i>
+          </div>
+          <p>+244 927 585 446</p>
+        </div>
+        <div>
+          <div class="footer__icon-wrapper">
+            <i class="bi bi-geo-alt-fill footer__icon"></i>
+          </div>
+          <p>Benguela, Benguela, Mira Mar</p>
+        </div>
+        <div>
+          <div class="footer__icon-wrapper">
+            <i class="bi bi-envelope-fill footer__icon"></i>
+          </div>
+          <p>aatecnyservicos@gmail.com</p>
+        </div>
+      </div>
+    </div>
+    <p class="footer__text">&copy; 2024 Todos os direitos reservados <span class="author">a Fabiana Chicanha</span></p>
+  </footer>
+</body>
+</html>
