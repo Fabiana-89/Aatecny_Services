@@ -367,6 +367,7 @@ p {
 
   .menu-mobile .list {
     display: block;
+     text-align: center;
   }
 
   .menu-mobile .nav__item + .nav__item {
